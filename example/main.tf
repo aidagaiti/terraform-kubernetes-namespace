@@ -2,7 +2,7 @@ module "namespace" {
   source = "aidagaiti/namespace/kubernetes"
   name   = "test"
   labels = {
-     environment = "dev"
+    environment = "dev"
   }
   annotations = {
     managed_by = "terraform "
