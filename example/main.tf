@@ -1,4 +1,4 @@
 module "namespace" {
-  source  = "aidagaiti/namespace/kubernetes"
-  version = "0.0.1"
+  source = "aidagaiti/namespace/kubernetes"
+  name   = "test"
 }
